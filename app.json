@@ -33,6 +33,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4d2d7eae-d3ba-4ba9-bd45-41c35f048994"
+      }
+    },
+    "owner": "florence25"
   }
 }
