@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Dog Breeds",
+    "slug": "dog-breeds-explorer",
+    "scheme": "dogbreeds",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uwinezaflorence20.dogbreeds"
+    },
+    "android": {
+      "package": "com.uwinezaflorence20.dogbreeds",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4A950",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-image",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
